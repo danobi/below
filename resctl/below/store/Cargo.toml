@@ -10,7 +10,7 @@ include = ["src/**/*.rs"]
 below-thrift = "0.1"
 below-common = "0.1"
 below-model = { path = "../model" }
-fbthrift = { git = "https://github.com/facebook/fbthrift.git", branch = "master" }
+fbthrift = "0.0.1"
 anyhow = "1.0"
 futures = { version = "0.3.5", features = ["async-await", "compat"] }
 humantime = "1.3"
