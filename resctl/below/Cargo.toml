@@ -16,7 +16,7 @@ cgroupfs = { path = "../common/cgroupfs" }
 common = { path = "common" }
 dump = { path = "dump" }
 model = { path = "model" }
-procfs = { path = "../common/procfs" }
+fb_procfs = { path = "../common/procfs" }
 store = { path = "store" }
 view = { path = "view" }
 slog_glog_fmt = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }

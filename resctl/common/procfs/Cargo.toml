@@ -1,5 +1,5 @@
 [package]
-name = "procfs"
+name = "fb_procfs"
 description = "A crate for reading procfs"
 homepage = "https://github.com/facebookincubator/resctl"
 repository = "https://github.com/danobi/resctl/"
@@ -8,6 +8,9 @@ version = "0.1.0"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/lib.rs"]
+
+[lib]
+name = "procfs"
 
 [dependencies]
 procfs-thrift = "0.1"
