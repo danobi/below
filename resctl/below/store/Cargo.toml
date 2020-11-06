@@ -8,7 +8,7 @@ include = ["src/**/*.rs"]
 
 [dependencies]
 below-thrift = { path = "../if" }
-below-common = { path = "../common" }
+below-common = "0.1"
 model = { path = "../model" }
 fbthrift = { git = "https://github.com/facebook/fbthrift.git", branch = "master" }
 anyhow = "1.0"

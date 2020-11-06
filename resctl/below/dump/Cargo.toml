@@ -8,7 +8,7 @@ include = ["src/**/*.rs"]
 
 [dependencies]
 below_derive = "0.1"
-below-common = { path = "../common" }
+below-common = "0.1"
 model = { path = "../model" }
 render = { path = "../render" }
 fb_procfs = { path = "../../common/procfs" }

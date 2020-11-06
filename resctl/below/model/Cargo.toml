@@ -10,7 +10,7 @@ include = ["src/**/*.rs"]
 below-thrift = { path = "../if" }
 below_derive = "0.1"
 cgroupfs = "0.1"
-below-common = { path = "../common" }
+below-common = "0.1"
 fb_procfs = "0.1"
 anyhow = "1.0"
 hostname = "0.3"
