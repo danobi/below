@@ -10,11 +10,8 @@ include = ["src/**/*.rs"]
 below_derive = { path = "../below_derive" }
 common = { path = "../common" }
 model = { path = "../model" }
-<<<<<<< HEAD
 render = { path = "../render" }
-=======
 fb_procfs = { path = "../../common/procfs" }
->>>>>>> 5d6fcdd... procfs: Rename procfs to fb_procfs
 store = { path = "../store" }
 anyhow = "1.0"
 once_cell = "1.4"

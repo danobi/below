@@ -10,12 +10,8 @@ include = ["src/**/*.rs"]
 below-thrift = { path = "../if" }
 below_derive = { path = "../below_derive" }
 cgroupfs = { path = "../../common/cgroupfs" }
-<<<<<<< HEAD
-procfs = { path = "../../common/procfs" }
-=======
 common = { path = "../common" }
 fb_procfs = { path = "../../common/procfs" }
->>>>>>> 5d6fcdd... procfs: Rename procfs to fb_procfs
 anyhow = "1.0"
 hostname = "0.3"
 os_info = "=2.0.1"
