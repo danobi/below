@@ -7,7 +7,7 @@ license = "Apache-2.0"
 include = ["src/**/*.rs"]
 
 [dependencies]
-below-thrift = { path = "../if" }
+below-thrift = "0.1"
 below_derive = "0.1"
 cgroupfs = "0.1"
 below-common = "0.1"

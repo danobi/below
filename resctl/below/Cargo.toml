@@ -11,7 +11,7 @@ name = "below"
 path = "src/main.rs"
 
 [dependencies]
-below-thrift = { path = "if" }
+below-thrift = "0.1"
 cgroupfs = "0.1"
 below-common = "0.1"
 dump = { path = "dump" }
