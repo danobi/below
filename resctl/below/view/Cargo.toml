@@ -10,7 +10,7 @@ include = ["src/**/*.rs"]
 common = { path = "../common" }
 model = { path = "../model" }
 render = { path = "../render" }
-fb_procfs = { path = "../../common/procfs" }
+fb_procfs = "0.1"
 store = { path = "../store" }
 anyhow = "1.0"
 chrono = { version = "0.4", features = ["serde"] }

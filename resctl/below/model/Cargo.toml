@@ -9,9 +9,9 @@ include = ["src/**/*.rs"]
 [dependencies]
 below-thrift = { path = "../if" }
 below_derive = { path = "../below_derive" }
-cgroupfs = { path = "../../common/cgroupfs" }
+cgroupfs = "0.1"
 common = { path = "../common" }
-fb_procfs = { path = "../../common/procfs" }
+fb_procfs = "0.1"
 anyhow = "1.0"
 hostname = "0.3"
 os_info = "=2.0.1"

@@ -12,11 +12,11 @@ path = "src/main.rs"
 
 [dependencies]
 below-thrift = { path = "if" }
-cgroupfs = { path = "../common/cgroupfs" }
+cgroupfs = "0.1"
 common = { path = "common" }
 dump = { path = "dump" }
 model = { path = "model" }
-fb_procfs = { path = "../common/procfs" }
+fb_procfs = "0.1"
 store = { path = "store" }
 view = { path = "view" }
 slog_glog_fmt = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }
@@ -40,6 +40,8 @@ toml = "=0.5.7"
 walkdir = "2.2.9"
 
 [dev-dependencies]
+below_derive = { path = "below_derive" }
+cgroupfs = "0.1"
 futures = { version = "0.3.5", features = ["async-await", "compat"] }
 maplit = "1.0"
 rand = { version = "0.7", features = ["small_rng"] }
