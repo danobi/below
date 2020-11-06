@@ -9,7 +9,7 @@ include = ["src/**/*.rs"]
 [dependencies]
 below-thrift = "0.1"
 below-common = "0.1"
-model = { path = "../model" }
+below-model = { path = "../model" }
 fbthrift = { git = "https://github.com/facebook/fbthrift.git", branch = "master" }
 anyhow = "1.0"
 futures = { version = "0.3.5", features = ["async-await", "compat"] }

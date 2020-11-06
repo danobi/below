@@ -15,7 +15,7 @@ below-thrift = "0.1"
 cgroupfs = "0.1"
 below-common = "0.1"
 dump = { path = "dump" }
-model = { path = "model" }
+below-model = { path = "model" }
 fb_procfs = "0.1"
 store = { path = "store" }
 view = { path = "view" }

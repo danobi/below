@@ -9,9 +9,9 @@ include = ["src/**/*.rs"]
 [dependencies]
 below_derive = "0.1"
 below-common = "0.1"
-model = { path = "../model" }
+below-model = { path = "../model" }
 render = { path = "../render" }
-fb_procfs = { path = "../../common/procfs" }
+fb_procfs = "0.1"
 store = { path = "../store" }
 anyhow = "1.0"
 once_cell = "1.4"

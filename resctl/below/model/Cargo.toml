@@ -1,5 +1,5 @@
 [package]
-name = "model"
+name = "below-model"
 description = "Model crate for below"
 homepage = "https://github.com/facebookincubator/resctl"
 repository = "https://github.com/danobi/resctl/"
@@ -8,6 +8,9 @@ version = "0.1.0"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/**/*.rs"]
+
+[lib]
+name = "model"
 
 [dependencies]
 below-thrift = "0.1"
