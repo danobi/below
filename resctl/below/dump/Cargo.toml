@@ -7,7 +7,7 @@ license = "Apache-2.0"
 include = ["src/**/*.rs"]
 
 [dependencies]
-below_derive = { path = "../below_derive" }
+below_derive = "0.1"
 common = { path = "../common" }
 model = { path = "../model" }
 render = { path = "../render" }

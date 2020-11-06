@@ -40,7 +40,7 @@ toml = "=0.5.7"
 walkdir = "2.2.9"
 
 [dev-dependencies]
-below_derive = { path = "below_derive" }
+below_derive = "0.1"
 cgroupfs = "0.1"
 futures = { version = "0.3.5", features = ["async-await", "compat"] }
 maplit = "1.0"
