@@ -1,9 +1,12 @@
 [package]
 name = "below-thrift"
+description = "Thrift definitions for below"
+homepage = "https://github.com/facebookincubator/resctl"
+repository = "https://github.com/danobi/resctl/"
 edition = "2018"
 version = "0.1.0"
-authors = ['Facebook']
 license = "Apache-2.0"
+authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 include = ["thrift_lib.rs"]
 build = "thrift_build.rs"
 
