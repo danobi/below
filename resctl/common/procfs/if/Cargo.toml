@@ -7,7 +7,7 @@ edition = "2018"
 version = "0.1.0"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
-include = ["thrift_lib.rs"]
+include = ["*.rs", "*.thrift"]
 build = "thrift_build.rs"
 
 [lib]
