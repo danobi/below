@@ -23,8 +23,8 @@ below-model = "0.1"
 fb_procfs = "0.1"
 below-store = "0.1"
 below-view = "0.1"
-slog_glog_fmt = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }
-stats = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }
+slog_glog_fmt = "0.1"
+fb_stats = "0.1"
 anyhow = "1.0"
 async-trait = "0.1.29"
 cursive = { version = "0.15.0", default-features = false, features = ["crossterm", "termion"] }
