@@ -17,7 +17,7 @@ below-common = "0.1"
 dump = { path = "dump" }
 below-model = "0.1"
 fb_procfs = "0.1"
-below-store = { path = "store" }
+below-store = "0.1"
 view = { path = "view" }
 slog_glog_fmt = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }
 stats = { git = "https://github.com/facebookexperimental/rust-shed.git", branch = "master" }
