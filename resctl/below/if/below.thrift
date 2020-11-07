@@ -15,8 +15,8 @@
 namespace cpp2 resctl.below
 namespace py3 resctl.below
 
-include "resctl/common/cgroupfs/if/cgroupfs.thrift"
-include "resctl/common/procfs/if/procfs.thrift"
+include "cgroupfs.thrift"
+include "procfs.thrift"
 
 struct DataFrame {
   1: Sample sample,
