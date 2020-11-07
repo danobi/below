@@ -7,5 +7,5 @@ license = "Apache-2.0"
 include = ["src/**/*.rs"]
 
 [dependencies]
-common = { path = "../common" }
-model = { path = "../model" }
+below-common = { path = "../common" }
+below-model = { path = "../model" }

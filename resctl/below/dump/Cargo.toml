@@ -4,7 +4,7 @@ description = "Dump crate for below"
 homepage = "https://github.com/facebookincubator/resctl"
 repository = "https://github.com/danobi/resctl/"
 edition = "2018"
-version = "0.1.0"
+version = "0.1.2"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/**/*.rs"]
@@ -25,4 +25,4 @@ regex = "1.4.2"
 serde_json = { version = "1.0", features = ["float_roundtrip"] }
 slog = { version = "2.5", features = ["max_level_debug"] }
 structopt = "0.3.21"
-toml = "=0.5.7"
+toml = "0.5"

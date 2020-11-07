@@ -5,7 +5,7 @@ homepage = "https://github.com/facebookincubator/resctl"
 repository = "https://github.com/danobi/resctl/"
 readme = "../../README.md"
 edition = "2018"
-version = "0.1.0"
+version = "0.1.2"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/**/*.rs"]
@@ -40,7 +40,7 @@ slog-async = "2.3"
 slog-term = "2.4.2"
 structopt = "0.3.21"
 tokio = { version = "=0.2.13", features = ["full"] }
-toml = "=0.5.7"
+toml = "0.5"
 walkdir = "2.2.9"
 
 [dev-dependencies]
