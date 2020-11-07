@@ -1,8 +1,11 @@
 [package]
 name = "view"
+description = "View crate for below"
+homepage = "https://github.com/facebookincubator/resctl"
+repository = "https://github.com/danobi/resctl/"
 edition = "2018"
 version = "0.1.0"
-authors = ['Facebook']
+authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/**/*.rs"]
 
