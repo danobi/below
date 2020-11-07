@@ -10,7 +10,7 @@ include = ["src/**/*.rs"]
 below_derive = "0.1"
 below-common = "0.1"
 render = { path = "../render" }
-below-model = { path = "../model" }
+below-model = "0.1"
 fb_procfs = "0.1"
 store = { path = "../store" }
 anyhow = "1.0"

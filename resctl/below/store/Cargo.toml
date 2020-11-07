@@ -9,7 +9,7 @@ include = ["src/**/*.rs"]
 [dependencies]
 below-thrift = "0.1"
 below-common = "0.1"
-below-model = { path = "../model" }
+below-model = "0.1"
 fbthrift = "0.0.1"
 anyhow = "1.0"
 futures = { version = "0.3.5", features = ["async-await", "compat"] }
