@@ -244,6 +244,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "below-render"
+version = "0.1.0"
+dependencies = [
+ "below-common 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "below-model 0.1.0",
+]
+
+[[package]]
 name = "below-store"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1236,6 +1244,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "htmlescape"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e9025058dae765dee5070ec375f591e2ba14638c63feff74f13805a72e523163"
+
+[[package]]
 name = "humantime"
 version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2074,10 +2088,23 @@ dependencies = [
 
 [[package]]
 name = "render"
-version = "0.1.0"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ff56ab12469d3fc42715cd826ab7b19775a8896c79f4a02ecd540fd8e0b84cc"
 dependencies = [
- "below-common 0.1.2",
- "below-model 0.1.2",
+ "htmlescape",
+ "render_macros",
+]
+
+[[package]]
+name = "render_macros"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f66ef78ae125253aa10770f302cf2c0d04a879091f48f17345ec1e8d2c30fa49"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
 ]
 
 [[package]]

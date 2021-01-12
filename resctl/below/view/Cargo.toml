@@ -15,7 +15,7 @@ name = "view"
 [dependencies]
 below_derive = "0.1"
 below-common = "0.1"
-render = { path = "../render" }
+render = "0.1"
 below-model = "0.1"
 fb_procfs = "0.1"
 below-store = "0.1"

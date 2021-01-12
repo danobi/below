@@ -1,11 +1,13 @@
 [package]
-name = "render"
+name = "below-render"
 edition = "2018"
 version = "0.1.0"
-authors = ['Facebook']
+homepage = "https://github.com/facebookincubator/resctl"
+repository = "https://github.com/danobi/resctl/"
+authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
 license = "Apache-2.0"
 include = ["src/**/*.rs"]
 
 [dependencies]
-below-common = { path = "../common" }
-below-model = { path = "../model" }
+below-common = "0.1"
+below-model = "0.1"
