@@ -158,7 +158,7 @@ dependencies = [
 
 [[package]]
 name = "below-common"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "chrono",
  "cursive",
@@ -191,7 +191,7 @@ dependencies = [
 
 [[package]]
 name = "below-dump"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "below-common 0.1.2",
@@ -229,7 +229,7 @@ dependencies = [
 
 [[package]]
 name = "below-model"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "below-common 0.1.2",
@@ -245,7 +245,7 @@ dependencies = [
 
 [[package]]
 name = "below-render"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "below-common 0.1.2",
  "below-model 0.1.0",
@@ -272,7 +272,7 @@ dependencies = [
 
 [[package]]
 name = "below-store"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "below-common 0.1.2",
@@ -312,7 +312,7 @@ dependencies = [
 
 [[package]]
 name = "below-thrift"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -352,7 +352,7 @@ dependencies = [
 
 [[package]]
 name = "below-view"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "below-common 0.1.2",
@@ -384,7 +384,7 @@ dependencies = [
 
 [[package]]
 name = "below_derive"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -474,7 +474,7 @@ dependencies = [
 
 [[package]]
 name = "cgroupfs"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "cgroupfs-thrift 0.1.0",
  "nix 0.19.1",
@@ -504,7 +504,7 @@ dependencies = [
 
 [[package]]
 name = "cgroupfs-thrift"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -849,7 +849,8 @@ dependencies = [
 [[package]]
 name = "enumset"
 version = "1.0.1"
-source = "git+https://github.com/danobi/enumset?rev=4c01c583c27a725948fededbfb3461c572a669a4#4c01c583c27a725948fededbfb3461c572a669a4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "959a80a2062fedd66ed41d99736212de987b3a8c83a4c2cef243968075256bd1"
 dependencies = [
  "enumset_derive",
  "num-traits",
@@ -940,7 +941,7 @@ dependencies = [
 
 [[package]]
 name = "fb_procfs"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "lazy_static",
  "libc",
@@ -1882,7 +1883,7 @@ dependencies = [
 
 [[package]]
 name = "procfs-thrift"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2109,7 +2110,7 @@ dependencies = [
 
 [[package]]
 name = "resctl_below"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "anyhow",
  "async-trait",

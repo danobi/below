@@ -1,7 +1,7 @@
 [package]
 name = "below-render"
 edition = "2018"
-version = "0.1.3"
+version = "0.1.4"
 homepage = "https://github.com/facebookincubator/resctl"
 repository = "https://github.com/danobi/resctl/"
 authors = ['Facebook', 'Daniel Xu <dlxu@fb.com>']
