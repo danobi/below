@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#[path = "../bpf/.output/exitstat.skel.rs"]
+#[path = concat!(env!("OUT_DIR"), "/exitstat.skel.rs")]
 mod bpf;
 pub mod commands;
 pub mod init;
